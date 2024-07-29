@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    *,
+    *::after,
+    *::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+        line-height: 1.45;
+    }
+
+    body {
+        @apply bg-background font-lato text-normal;
+    }
+
+    ::selection {
+        @apply bg-primary text-background;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-playfair;
+    }
+
+    a {
+        @apply text-inherit;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /* Lenis Configuration */
+    html.lenis,
+    html.lenis body {
+        height: auto;
+    }
+
+    .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+    }
+
+    .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+    }
+
+    .lenis.lenis-stopped {
+        overflow: hidden;
+    }
+
+    .lenis.lenis-smooth iframe {
+        pointer-events: none;
+    }
+
+    /* Hero Section */
+    .nav__menu::after,
+    .nav__menu::before {
+        height: 2px;
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @apply bg-background;
+    }
+
+    .nav__menu::after {
+        top: 50%;
+        width: 80%;
+    }
+
+    .nav__menu::before {
+        top: calc(50% + 5px);
+        width: 50%;
+    }
+}
