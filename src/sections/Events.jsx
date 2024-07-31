@@ -12,7 +12,7 @@ function Events() {
                     <h3 className="text-2xl leading-[.95]">
                         Coffee Tasting <br /> Experience
                     </h3>
-                    <p className="mb-30 mt-20 leading-relaxed">
+                    <p className="mb-30 mt-20 max-w-[80%] leading-relaxed">
                         Dive into the rich and diverse world of coffee flavors.
                         Our expert baristas will guide you through a tasting
                         journey, helping you identify different coffee profiles
@@ -37,16 +37,17 @@ function Events() {
                         className="h-full w-full object-cover"
                     />
                 </div>
-                <div className="flex flex-col justify-center items-end text-end bg-primary px-60 text-background">
+                <div className="flex flex-col items-end justify-center bg-primary px-60 text-end text-background">
                     <h3 className="text-2xl leading-[.95]">
-                        Coffee Tasting <br /> Experience
+                        Barista Skills <br />
+                        Workshop
                     </h3>
-                    <p className="mb-30 mt-20 leading-relaxed">
-                        Dive into the rich and diverse world of coffee flavors.
-                        Our expert baristas will guide you through a tasting
-                        journey, helping you identify different coffee profiles
-                        and origins. Perfect for coffee lovers looking to deepen
-                        their appreciation.
+                    <p className="mb-30 mt-20 max-w-[78%] leading-relaxed">
+                        Enhance your coffee-making skills with our hands-on
+                        barista workshop. Learn the art of espresso, milk
+                        frothing, and latte art from our experienced baristas.
+                        Ideal for anyone interested in perfecting their home
+                        brewing techniques.
                     </p>
                     <Button className="bg-secondary text-background">
                         Sign up now

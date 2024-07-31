@@ -9,7 +9,7 @@ function Product() {
                 />
                 <div className="absolute right-0 top-0 flex h-[6.5rem] w-[30%] items-center justify-center bg-background">
                     <span className="inline-block cursor-pointer text-[2.3rem]">
-                        <i class="ri-heart-3-line text-secondary"></i>
+                        <i className="ri-heart-3-line text-secondary"></i>
                     </span>
                 </div>
                 <div className="pt-3left-0 absolute bottom-0 flex h-[6.5rem] w-[35%] flex-col items-end justify-center gap-5 bg-background pr-3 text-end">
@@ -30,7 +30,7 @@ function Product() {
                 />
                 <div className="absolute right-0 top-0 flex h-[6.5rem] w-[30%] items-center justify-center bg-background">
                     <span className="inline-block cursor-pointer text-[2.3rem]">
-                        <i class="ri-heart-3-line text-secondary"></i>
+                        <i className="ri-heart-3-line text-secondary"></i>
                     </span>
                 </div>
                 <div className="pt-3left-0 absolute bottom-0 flex h-[6.5rem] w-[35%] flex-col items-end justify-center gap-5 bg-background pr-3 text-end">
@@ -48,7 +48,7 @@ function Product() {
                 />
                 <div className="absolute right-0 top-0 flex h-[6.5rem] w-[30%] items-center justify-center bg-background">
                     <span className="inline-block cursor-pointer text-[2.3rem]">
-                        <i class="ri-heart-3-line text-secondary"></i>
+                        <i className="ri-heart-3-line text-secondary"></i>
                     </span>
                 </div>
                 <div className="absolute bottom-0 left-0 flex h-[6.5rem] w-[35%] flex-col items-end justify-center gap-5 bg-background pr-3 text-end">
@@ -66,7 +66,7 @@ function Product() {
                 />
                 <div className="absolute right-0 top-0 flex h-[6.5rem] w-[30%] items-center justify-center bg-background">
                     <span className="inline-block cursor-pointer text-[2.3rem]">
-                        <i class="ri-heart-3-line text-secondary"></i>
+                        <i className="ri-heart-3-line text-secondary"></i>
                     </span>
                 </div>
                 <div className="absolute bottom-0 left-0 flex h-[6.5rem] w-[35%] flex-col items-end justify-center gap-5 bg-background pr-3 text-end">
@@ -84,7 +84,7 @@ function Product() {
                 />
                 <div className="absolute right-0 top-0 flex h-[6.5rem] w-[30%] items-center justify-center bg-background">
                     <span className="inline-block cursor-pointer text-[2.3rem]">
-                        <i class="ri-heart-3-line text-secondary"></i>
+                        <i className="ri-heart-3-line text-secondary"></i>
                     </span>
                 </div>
                 <div className="absolute bottom-0 left-0 flex h-[6.5rem] w-[35%] flex-col items-end justify-center gap-5 bg-background pr-3 text-end">
