@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Home from "./pages/Home";
 import Lenis from "lenis";
+import 'remixicon/fonts/remixicon.css'
 
 function App() {
     useEffect(() => {
