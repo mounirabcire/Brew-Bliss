@@ -16,6 +16,7 @@
     html {
         font-size: 62.5%;
         line-height: 1.45;
+        scroll-behavior: smooth
     }
 
     body {
@@ -90,15 +91,14 @@
     .products {
         min-height: 100dvh;
         display: grid;
-        grid-template-columns: 30% repeat(2, calc(35% / 2));
-        grid-template-rows: repeat(3, calc(90vh / 3));
+        grid-template-columns: 30% repeat(2, calc(45% / 2));
+        grid-template-rows: repeat(3, calc(95vh / 3));
         grid-template-areas:
             "pro1 heading heading"
             "pro1 pro2 pro3"
             "pro1 pro4 pro5";
         grid-gap: 3rem;
         justify-content: center;
-        /* justify-items: center; */
         align-content: center;
     }
 
@@ -125,5 +125,25 @@
 
     .products__product--5 {
         grid-area: pro5;
+    }
+
+    @media screen and (max-width: 1023px) {
+        .products {
+            margin-inline: 0.5rem;
+            grid-template-columns: repeat(2, minmax(auto, 1fr));
+            grid-template-rows: repeat(4, 20rem);
+            grid-template-areas:
+                "heading heading"
+                "pro1 pro2"
+                "pro1 pro3"
+                "pro1 pro4"
+                ". pro5"
+            /* grid-gap: 0; */
+        }
+
+        .products__heading {
+            align-self: end;
+            justify-self: center;
+        }
     }
 }
