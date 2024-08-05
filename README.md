@@ -39,4 +39,4 @@
 
 ## Demo 📸
 
-You can start exploring the app here: [natours](https://brew-bliss.vercel.app/).
+You can start exploring the app here: [Brew Bliss](https://brew-bliss.vercel.app/).
